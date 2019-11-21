@@ -48,3 +48,7 @@ make
 max_allowed_packet=16M
 
 ====================================================================================
+You must create a key in the Windows registry
+-------------------------------------------
+HKEY_CLASSES_ROOT\.cgi\Shell\ExecCGI\Command
+    C:\Strawberry\perl\bin\perl.exe -T
